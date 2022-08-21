@@ -27,16 +27,23 @@ public class Skill {
     private String img;
     private String link;
     private String category;
+    private Integer progress;
 
     public Skill() {
     }
 
-    public Skill(Long id, String name, String img, String link, String category) {
+    public Skill(Long id, String name, String img, String link, String category, Integer progress) {
         this.id = id;
         this.name = name;
         this.img = img;
         this.link = link;
         this.category = category;
+        this.progress = progress;
     }
+
+
+
+
+   
 
 }

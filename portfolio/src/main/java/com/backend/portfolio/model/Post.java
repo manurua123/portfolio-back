@@ -23,18 +23,22 @@ public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
-    private String title;
+    private String name;
     private String img;
     private String link;
+    private String description;
 
     public Post() {
     }
 
-    public Post(Long id, String title, String img, String link) {
+    public Post(Long id, String name, String img, String link, String description) {
         this.id = id;
-        this.title = title;
+        this.name = name;
         this.img = img;
         this.link = link;
+        this.description = description;
     }
+
+  
 
 }

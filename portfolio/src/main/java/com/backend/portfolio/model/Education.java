@@ -28,7 +28,6 @@ public class Education {
     private String university;
     private String img;
     private String link;
-    private String description;
     private String certification;
     private Date begin;
     private Integer progress;
@@ -36,13 +35,12 @@ public class Education {
     public Education() {
     }
 
-    public Education(Long id, String career, String university, String img, String link, String description, String certification, Date begin, Integer progress) {
+    public Education(Long id, String career, String university, String img, String link, String certification, Date begin, Integer progress) {
         this.id = id;
         this.career = career;
         this.university = university;
         this.img = img;
         this.link = link;
-        this.description = description;
         this.certification = certification;
         this.begin = begin;
         this.progress = progress;
